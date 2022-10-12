@@ -35,7 +35,7 @@ export default function Card() {
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
               {callouts.map((callout) =>
                 callout.name.toLowerCase().includes(val.toLowerCase()) ? (
-                 <Tilt><div
+                <Tilt><div
                     key={callout.name}
                     className="group relative py-6 profile-card text-center"
                   >
