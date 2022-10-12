@@ -97,7 +97,7 @@ git commit -m "<your_commit_message>"
 git push -u origin <your_branch_name>
 ```
 
-7. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
+7. Create a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
 
 8. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/Buddhad/contributors22" title="Contributor22">Contributors22</a>. ✌️ ❤️ 💥
 
@@ -105,7 +105,7 @@ git push -u origin <your_branch_name>
 
 <h2 id="contribute">Contributing</h2>
 <p>
-   Thank you for your interest in contributing to our Repo! Pull requests are welcome. For fixing typos, please make a PR with your fixes. For other contributions, we suggest you to read our <a href="/CONTRIBUTING.md">contribution guidelines</a> to see how you can contribute to this project. We are happy for every contribution. 
+   Thank you for your interest in contributing to our Repo! Pull requests are welcome. For fixing typos, please make a PR with your fixes. For other contributions, we suggest you to read our <a href="https://github.com/Buddhad/contributors22/blob/main/CONTRIBUTING.md">contribution guidelines</a> to see how you can contribute to this project. We are happy for every contribution. 
     
 </p>
 
