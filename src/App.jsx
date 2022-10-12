@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 import './App.css'
+import Card from "./components/Card"
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -8,8 +9,9 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-3xl font-bold underline">
-      Hello world!
+      HelloOctober World!
     </h1>
+    <Card />
     </div>
   )
 }
