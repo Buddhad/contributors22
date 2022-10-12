@@ -17,6 +17,10 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/66058598?s=400&u=22248a738b51bd63710048cdfe83baf60a17a348&v=4",
     imageAlt: "N Deepika",
     href: "https://github.com/N-Deepika",
+    languages: ["JavaScript",
+      "Python",
+      "C++",]
+      
   },];
 
 export default function Card() {
@@ -43,7 +47,7 @@ export default function Card() {
                         className="w-full h-full object-center object-cover"
                       />
                     </div>
-                    <h3 className="contributor-name mt-6 text-sm text-gray-500 dark:text-gray-100">
+                    <h3 className="contributor-name mt-6 text-xl font-bold text-black ">
                       <div className="contributor">{callout.name}</div>
                     </h3>
                     <a href={callout.href} target="_blank" rel="noreferrer">
@@ -52,6 +56,7 @@ export default function Card() {
                     <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
                       {callout.description}
                     </p>
+                  
                   </div>
                   </Tilt> 
                 ) : null
