@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ecf0f3;
+}
+
+.wrapper{
+    background: #ecf0f3;
+    padding: 30px;
+    width:300px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px 20px 50px;
+    box-shadow: -3px -3px 7px #ffffff,
+    3px 3px 5px #ceced1;
+}
+
+.wrapper .img-area{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px  50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper , 
+.wrapper .img-area{
+    background:#ecf0f3 ;
+    box-shadow: -3px -3px 7px #ffffff,
+    3px 3px 5px #ceced1;
+}
+
+.img-area .inner-area{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px );
+}
+
+.inner-area img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.bio{
+    margin-top: 5px;
+}
