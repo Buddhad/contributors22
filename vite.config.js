@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 
 
-// add options for dark theme
+// dark mode code goes here
 const options = {
   bottom: '64px', // default: '32px'
   right: 'unset', // default: '32px'
