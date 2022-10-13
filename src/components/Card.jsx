@@ -29,6 +29,14 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/59883021?v=4",
     imageAlt: "siddharth",
     href: "https://github.com/siddharthsg2",
+  },
+  {
+    name: "Temitope",
+    description: "Backend Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/71881414?v=4",
+    imageAlt: "Temitope",
+    href: "https://github.com/TemitopeAgbaje",
   }
 ];
 
