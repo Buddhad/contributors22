@@ -21,7 +21,16 @@ const callouts = [ {
       "Python",
       "C++",]
       
-  },];
+  },
+  {
+    name: "Siddharth",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/59883021?v=4",
+    imageAlt: "siddharth",
+    href: "https://github.com/siddharthsg2",
+  }
+];
 
 export default function Card() {
     const [val, setval] = useState("");
