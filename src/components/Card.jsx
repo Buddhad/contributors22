@@ -29,6 +29,8 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/59883021?v=4",
     imageAlt: "siddharth",
     href: "https://github.com/siddharthsg2",
+    languages: ["Python",
+      "Java"]
   }
 ];
 
