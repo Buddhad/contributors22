@@ -36,7 +36,7 @@ const callouts = [ {
     imageSrc:
       "https://avatars.githubusercontent.com/u/64094563?v=4",
     imageAlt: "shaurya",
-    href: "https://github.com/shauryasrivatava"
+    href: "https://github.com/shauryasrivatava "
       
   }
 ];
