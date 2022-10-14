@@ -23,6 +23,7 @@ const callouts = [ {
       
   },
   {
+
     name: "Vedang Mule",
     description: "Full-Stack Developer 💻 | Coder👨‍💻 | Cyber Security Enthusiast  | competitive programmer",
     imageSrc:
@@ -33,7 +34,17 @@ const callouts = [ {
       "Python",
       "C++","java"]
       
-  },];
+  },
+{
+    name: "Siddharth",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/59883021?v=4",
+    imageAlt: "siddharth",
+    href: "https://github.com/siddharthsg2",
+  }
+];
+
 
 export default function Card() {
     const [val, setval] = useState("");
