@@ -31,13 +31,21 @@ const callouts = [ {
     href: "https://github.com/siddharthsg2",
   },
   {
+    name: "Shaurya Srivastava",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/64094563?v=4",
+    imageAlt: "shaurya",
+    href: "https://github.com/shauryasrivatava "
+  }, 
+  {
     name: "Temitope",
     description: "Backend Engineer",
     imageSrc:
       "https://avatars.githubusercontent.com/u/71881414?v=4",
     imageAlt: "Temitope",
     href: "https://github.com/TemitopeAgbaje",
-  }
+  },
 ];
 
 
