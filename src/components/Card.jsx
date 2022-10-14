@@ -31,6 +31,14 @@ const callouts = [ {
     href: "https://github.com/siddharthsg2",
     languages: ["Python",
       "Java"]
+  },
+  {
+    name: "Shaurya Srivastava",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/64094563?v=4",
+    imageAlt: "shaurya",
+    href: "https://github.com/shauryasrivatava "
   }
 ];
 
