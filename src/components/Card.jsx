@@ -45,7 +45,8 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/71881414?v=4",
     imageAlt: "Temitope",
     href: "https://github.com/TemitopeAgbaje",
-  },
+  },   
+  }
 ];
 
 
