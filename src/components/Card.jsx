@@ -29,6 +29,15 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/59883021?v=4",
     imageAlt: "siddharth",
     href: "https://github.com/siddharthsg2",
+  },
+  {
+    name: "Shaurya Srivastava",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/64094563?v=4",
+    imageAlt: "shaurya",
+    href: "https://github.com/shauryasrivatava "
+      
   }
 ];
 
