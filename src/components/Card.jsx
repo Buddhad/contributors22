@@ -40,6 +40,7 @@ const callouts = [ {
   }
 ];
 
+
 export default function Card() {
     const [val, setval] = useState("");
     return (
