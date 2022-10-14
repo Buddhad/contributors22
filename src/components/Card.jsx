@@ -39,8 +39,17 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/64094563?v=4",
     imageAlt: "shaurya",
     href: "https://github.com/shauryasrivatava "
+  }, 
+  {
+    name: "Temitope",
+    description: "Backend Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/71881414?v=4",
+    imageAlt: "Temitope",
+    href: "https://github.com/TemitopeAgbaje",
   }
 ];
+
 
 export default function Card() {
     const [val, setval] = useState("");
