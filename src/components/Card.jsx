@@ -49,6 +49,14 @@ const callouts = [ {
     href: "https://github.com/TemitopeAgbaje",
   },
   {
+    name: "Vaibhav Jain",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/43786003?s=400&u=5f0cc0453d6ef34e40680d1dc6a8d3f6a81d3787&v=4",
+    imageAlt: "vaibhav_jain",
+    href: "https://github.com/VAIBHAVCES",
+  },
+  {
     name: "Siddharth",
     description: "Web Developer",
     imageSrc:
