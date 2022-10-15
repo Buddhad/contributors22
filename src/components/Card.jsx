@@ -55,6 +55,14 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/90437355?v=4",
     imageAlt: "Siddharth",
     href: "https://github.com/JadugarKalakaboola",
+  },
+  {
+    name: "Aditya Ahirwar",
+    description: "Student & Web Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/77871976?v=4",
+    imageAlt: "Aditya ",
+    href: "https://github.com/Aditya-ahirwar",
   }
 ];
 
