@@ -38,7 +38,19 @@ const callouts = [ {
     imageAlt: "shaurya",
     href: "https://github.com/shauryasrivatava "
       
-  }
+  },
+  {
+    name: "Sudo Whoami",
+    description: "MERN Stack | Linux Fanboy",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/54102389?v=4",
+    imageAlt: "Sudo whoami ",
+    href: "https://github.com/yhoungdev",
+    languages: ["JavaScript",
+      "Astro.build",
+      "",]
+      
+  },
 ];
 
 export default function Card() {
