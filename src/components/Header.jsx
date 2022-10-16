@@ -48,11 +48,12 @@ const Header = () => {
                 <div
                     className={
                         hamburger
-                            ? "block absolute top-10 mt-6 pt-1 bg-neutral left-0 w-full dark:bg-black"
+                            ? "block absolute top-10 mt-6 pt-1 bg-white left-0 w-full dark:bg-black"
                             : "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
                     }
                 >
                     <div className={hamburger ? "flex flex-col" : "flex items-stretch"}>
+                        <div className="my-2">
                         <a
                             exact
                             activeClassName="active_link"
@@ -61,6 +62,8 @@ const Header = () => {
                         >
                             HOME
                         </a>
+                        </div>
+                        <div className="my-2">
                         <a
                             exact
                             activeClassName="active_link"
@@ -70,6 +73,8 @@ const Header = () => {
                         >
                             OFFICIAL WEBSITE
                         </a>
+                        </div>
+                        <div className="my-2">
                         <a
                             exact
                             activeClassName="active_link"
@@ -79,14 +84,19 @@ const Header = () => {
                         >
                             DASHBOARD
                         </a>
+                        </div>
+                        <div className="my-2">
                         <a className="nav-links btn btn-sm rounded-btn dark:bg-black">
                             <Link to="/about">ABOUT</Link>
                         </a>
+                        </div>
+                        <div className="my-2">
                         <a className="nav-links btn btn-sm rounded-btn dark:bg-black">
                             <Link to="/contact">CONTACT US</Link>
                         </a>
+                        </div>
                         <a
-                            className=" px-4 py-1 btn btn-ghost btn-sm rounded-btn text-2xl"
+                            className="px-4 py-1 btn btn-ghost btn-sm rounded-btn text-2xl self-center my-2"
                             href="https://github.com/Buddhad/contributors22"
                             target="_blank"
                         >
