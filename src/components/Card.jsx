@@ -23,6 +23,19 @@ const callouts = [ {
       
   },
   {
+
+    name: "Vedang Mule",
+    description: "Full-Stack Developer 💻 | Coder👨‍💻 | Cyber Security Enthusiast  | competitive programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/98508734?s=400&u=07ac59f304af105cac32a13dcc098c41263daf28&v=4",
+    imageAlt: "Vedang Mule",
+    href: "https://github.com/developer208",
+    languages: ["JavaScript",
+      "Python",
+      "C++","java"]
+      
+  },
+{
     name: "Siddharth",
     description: "Software Engineer",
     imageSrc:
@@ -49,6 +62,14 @@ const callouts = [ {
     href: "https://github.com/TemitopeAgbaje",
   },
   {
+    name: "Vaibhav Jain",
+    description: "Software Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/43786003?s=400&u=5f0cc0453d6ef34e40680d1dc6a8d3f6a81d3787&v=4",
+    imageAlt: "vaibhav_jain",
+    href: "https://github.com/VAIBHAVCES",
+  },
+  {
     name: "Siddharth",
     description: "Web Developer",
     imageSrc:
@@ -57,12 +78,21 @@ const callouts = [ {
     href: "https://github.com/JadugarKalakaboola",
   },
   {
+ 
     name: "Vedang Mule",
     description: "Full stack developer",
     imageSrc:
       "https://avatars.githubusercontent.com/u/98508734?s=400&u=07ac59f304af105cac32a13dcc098c41263daf28&v=4",
     imageAlt: "Siddharth",
     href: "https://github.com/developer208",
+},
+{
+    name: "Aditya Ahirwar",
+    description: "Student & Web Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/77871976?v=4",
+    imageAlt: "Aditya ",
+    href: "https://github.com/Aditya-ahirwar",
   }
 ];
 
@@ -100,6 +130,7 @@ export default function Card() {
                     <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
                       {callout.description}
                     </p>
+                    
                   
                   </div>
                   </Tilt> 
