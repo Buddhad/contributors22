@@ -11,9 +11,8 @@ function App() {
     <div className="App">
       <Preloader/>
       <h1 className="text-3xl font-bold underline">
-      HelloOctober World!
-    </h1>
-    <Card />
+    </h1> 
+    {/* <Navbar/> */}
     </div>
   )
 }

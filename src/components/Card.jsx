@@ -23,12 +23,27 @@ const callouts = [ {
       
   },
   {
+
+    name: "Vedang Mule",
+    description: "Full-Stack Developer 💻 | Coder👨‍💻 | Cyber Security Enthusiast  | competitive programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/98508734?s=400&u=07ac59f304af105cac32a13dcc098c41263daf28&v=4",
+    imageAlt: "Vedang Mule",
+    href: "https://github.com/developer208",
+    languages: ["JavaScript",
+      "Python",
+      "C++","java"]
+      
+  },
+{
     name: "Siddharth",
     description: "Software Engineer",
     imageSrc:
       "https://avatars.githubusercontent.com/u/59883021?v=4",
     imageAlt: "siddharth",
     href: "https://github.com/siddharthsg2",
+    languages: ["Python",
+      "Java"]
   },
   {
     name: "Shaurya Srivastava",
@@ -52,6 +67,7 @@ const callouts = [ {
       
   },
 ];
+
 
 export default function Card() {
     const [val, setval] = useState("");
@@ -86,6 +102,7 @@ export default function Card() {
                     <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
                       {callout.description}
                     </p>
+                    
                   
                   </div>
                   </Tilt> 
