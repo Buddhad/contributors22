@@ -2,7 +2,9 @@
 #root {
   margin: 0 auto;
   text-align: center;
+
   font-family: 'Poppins', sans-serif;
+
 }
 
 .logo {
@@ -39,3 +41,4 @@
 .read-the-docs {
   color: #888;
 }
+

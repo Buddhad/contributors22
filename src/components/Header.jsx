@@ -3,7 +3,7 @@ import './Header.css'
 import { FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [hamburger, setHamburger] = useState(false);
@@ -48,7 +48,10 @@ const Header = () => {
                 <div
                     className={
                         hamburger
-                            ? "block absolute top-10 mt-6 pt-1 bg-white left-0 w-full dark:bg-black"
+
+                            ? "block absolute top-10 mt-6 pt-1 bg-neutral left-0 w-full dark:bg-black text-white "
+
+                           
                             : "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
                     }
                 >
@@ -58,7 +61,10 @@ const Header = () => {
                             exact
                             activeClassName="active_link"
                             href="/"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
+
+                            className="nav-links btn btn-sm rounded-btn "
+
+                 
                         >
                             HOME
                         </a>
@@ -69,7 +75,11 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
+
+                            className="nav-links btn btn-sm rounded-btn "
+
+                            
+
                         >
                             OFFICIAL WEBSITE
                         </a>
@@ -80,21 +90,20 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/profile"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
+
+                            className="nav-links btn btn-sm rounded-btn "
                         >
                             DASHBOARD
                         </a>
-                        </div>
-                        <div className="my-2">
-                        <a className="nav-links btn btn-sm rounded-btn dark:bg-light">
-                            <Link to="/about">ABOUT</Link>
+                         <a className="nav-links btn btn-sm rounded-btn ">
+                            <Link to="/login">LOGIN</Link>
                         </a>
-                        </div>
-                        <div className="my-2">
-                        <a className="nav-links btn btn-sm rounded-btn dark:bg-light">
-                            <Link to="/contact">CONTACT US</Link>
+                        <a className="nav-links btn btn-sm rounded-btn ">
+                        <Link to="/contact">CONTACT US</Link>
                         </a>
+
                         </div>
+                       
                         <a
                             className="px-4 py-1 btn btn-ghost btn-sm rounded-btn text-2xl self-center my-2"
                             href="https://github.com/Buddhad/contributors22"
@@ -102,6 +111,8 @@ const Header = () => {
                         >
                             <FaGithub />
                         </a>
+
+                     
                     </div>
                 </div>
             </div>
