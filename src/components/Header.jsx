@@ -58,7 +58,7 @@ const Header = () => {
                             exact
                             activeClassName="active_link"
                             href="/"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-black"
+                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
                         >
                             HOME
                         </a>
@@ -69,7 +69,7 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-black"
+                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
                         >
                             OFFICIAL WEBSITE
                         </a>
@@ -80,18 +80,18 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/profile"
-                            className="nav-links btn btn-sm rounded-btn dark:bg-black"
+                            className="nav-links btn btn-sm rounded-btn dark:bg-light"
                         >
                             DASHBOARD
                         </a>
                         </div>
                         <div className="my-2">
-                        <a className="nav-links btn btn-sm rounded-btn dark:bg-black">
+                        <a className="nav-links btn btn-sm rounded-btn dark:bg-light">
                             <Link to="/about">ABOUT</Link>
                         </a>
                         </div>
                         <div className="my-2">
-                        <a className="nav-links btn btn-sm rounded-btn dark:bg-black">
+                        <a className="nav-links btn btn-sm rounded-btn dark:bg-light">
                             <Link to="/contact">CONTACT US</Link>
                         </a>
                         </div>
