@@ -52,20 +52,39 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/64094563?v=4",
     imageAlt: "shaurya",
     href: "https://github.com/shauryasrivatava "
-      
+  }, 
+  {
+    name: "Temitope",
+    description: "Backend Engineer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/71881414?v=4",
+    imageAlt: "Temitope",
+    href: "https://github.com/TemitopeAgbaje",
   },
   {
-    name: "Sudo Whoami",
-    description: "MERN Stack | Linux Fanboy",
+    name: "Vaibhav Jain",
+    description: "Software Engineer",
     imageSrc:
-      "https://avatars.githubusercontent.com/u/54102389?v=4",
-    imageAlt: "Sudo whoami ",
-    href: "https://github.com/yhoungdev",
-    languages: ["JavaScript",
-      "Astro.build",
-      "",]
-      
+      "https://avatars.githubusercontent.com/u/43786003?s=400&u=5f0cc0453d6ef34e40680d1dc6a8d3f6a81d3787&v=4",
+    imageAlt: "vaibhav_jain",
+    href: "https://github.com/VAIBHAVCES",
   },
+  {
+    name: "Siddharth",
+    description: "Web Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/90437355?v=4",
+    imageAlt: "Siddharth",
+    href: "https://github.com/JadugarKalakaboola",
+  },
+  {
+    name: "Aditya Ahirwar",
+    description: "Student & Web Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/77871976?v=4",
+    imageAlt: "Aditya ",
+    href: "https://github.com/Aditya-ahirwar",
+  }
 ];
 
 
