@@ -61,7 +61,10 @@ const Header = () => {
                             exact
                             activeClassName="active_link"
                             href="/"
+
                             className="nav-links btn btn-sm rounded-btn "
+
+                 
                         >
                             HOME
                         </a>
@@ -72,7 +75,11 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/"
+
                             className="nav-links btn btn-sm rounded-btn "
+
+                            
+
                         >
                             OFFICIAL WEBSITE
                         </a>
@@ -83,16 +90,17 @@ const Header = () => {
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/profile"
+
                             className="nav-links btn btn-sm rounded-btn "
                         >
                             DASHBOARD
                         </a>
-
-                        <a className="nav-links btn btn-sm rounded-btn ">
+                         <a className="nav-links btn btn-sm rounded-btn ">
                             <Link to="/login">LOGIN</Link>
                         </a>
                         <a className="nav-links btn btn-sm rounded-btn ">
                         <Link to="/contact">CONTACT US</Link>
+                        </a>
 
                         </div>
                        
@@ -103,6 +111,8 @@ const Header = () => {
                         >
                             <FaGithub />
                         </a>
+
+                     
                     </div>
                 </div>
             </div>
