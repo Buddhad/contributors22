@@ -20,7 +20,7 @@ const Header = () => {
                 <Link to="/">
                     <img src="/hackto.svg" alt="" width="40px" height="40px" />
                 </Link>
-                acktoberFest
+                HacktoberFest
             </div>
             <div className='flex items-center'>
 
@@ -48,7 +48,7 @@ const Header = () => {
                 <div
                     className={
                         hamburger
-                            ? "block absolute top-10 mt-6 pt-1 bg-white left-0 w-full dark:bg-black"
+                            ? "block absolute top-10 mt-6 pt-1 text-white bg-white left-0 w-full dark:bg-black"
                             : "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
                     }
                 >
@@ -65,7 +65,7 @@ const Header = () => {
                         </div>
                         <div className="my-2">
                         <a
-                            exact
+                            
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/"
@@ -76,7 +76,7 @@ const Header = () => {
                         </div>
                         <div className="my-2">
                         <a
-                            exact
+                            
                             activeClassName="active_link"
                             target="_blank"
                             href="https://hacktoberfest.com/profile"

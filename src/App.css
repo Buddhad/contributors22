@@ -5,6 +5,22 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.cover-image {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.splash {
+ top:80%;
+ left:54%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
