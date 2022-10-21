@@ -9,14 +9,28 @@
   position: absolute !important;
   height: 100% !important;
   width: 100% !important;
-  object-fit: cover;
   left: 0 !important;
   top: 0 !important;
 }
 
+@media (max-width: 420px) { 
+  body{
+    background: url(./assets/grain-dark.png) rgb(23, 15, 30);
+  }
+  .cover-image {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+
+ }
 .splash {
  top:80%;
- left:54%;
+ left:50%;
  position: absolute;
  transform: translate(-50%,-50%);
 }
