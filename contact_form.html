@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Contact Form</h1>
+        <hr>
+        <h3>Please Provide The Authentic Information</h3>
+        
+        
+        <form action="thanks_page.html" method="get">
+            <p>
+                Name :
+                <input type="text" name="Name" id="name" required placeholder="Thanos Jain">
+            </p>
+            <p>
+                Email :
+                <input type="email" name="email" id="Email" required placeholder="thanos123@gmail.com">
+            </p>
+            <p>
+                Phone Number : 
+                <input type="number" name="phone" id="Phone" required placeholder="1234567890">
+            </p>
+            <p>
+                Subject : 
+                Business <input type="radio" name="Subject" id="Business" required value="Business">
+                Job <input type="radio" name="Subject" id="Job" required value="Job">
+                Client <input type="radio" name="Subject" id="Client" required value="Client">
+                Other <input type="radio" name="Subject" id="Other" required value="other">
+            </p>
+            <p>
+                Message : 
+                <textarea name="message" id="msg" rows="10" required placeholder="Please Brief Your Message Not More Than 150 Words."></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit" id="submit">
+            </p>
+        </form>
+
+        <p >
+            For More Information Visit Our <a href="" id="link">Website</a> Or Call Us On +91 12345-12345
+        </p>
+        
+    </div>
+</body>
+
+</html>
