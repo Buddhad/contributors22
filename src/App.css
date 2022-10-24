@@ -16,6 +16,7 @@
 @media (max-width: 420px) { 
   body{
     background: url(./assets/grain-dark.png) rgb(23, 15, 30);
+    /* background-color: rgba(0, 0, 0, 0); */
   }
   .cover-image {
   position: absolute !important;
