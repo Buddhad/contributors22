@@ -100,9 +100,9 @@ export default function Card() {
     const [val, setval] = useState("");
     return (
       <div className="bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 bg-black lg:px-8">
           <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-            <h2 className="text-2xl font-bold text-gray-900">
+            <h2 className="text-2xl font-bold text-slate-200 text-900">
               Contributors
             </h2>
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
@@ -120,13 +120,13 @@ export default function Card() {
                         className="w-full h-full object-center object-cover"
                       />
                     </div>
-                    <h3 className="contributor-name mt-6 text-xl font-bold text-black ">
+                    <h3 className="contributor-name mt-6 text-xl font-bold text-white ">
                       <div className="contributor">{callout.name}</div>
                     </h3>
                     <a href={callout.href} target="_blank" rel="noreferrer">
                       <span className="absolute inset-0" />
                     </a>
-                    <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
+                    <p className="text-base font-semibold text-white dark:text-gray-500">
                       {callout.description}
                     </p>
                     

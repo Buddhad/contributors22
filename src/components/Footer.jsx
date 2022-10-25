@@ -5,17 +5,17 @@ import { BsGithub } from 'react-icons/bs';
 const Footer = () => {
   return (
     <>
-      <footer class="text-gray-600 mx-4 body-font">
+      <footer class="text-white body-font bg-black">
         <div class="px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex flex-col sm:flex-row title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img src={octocat} class="w-auto h-16 text-white rounded-full" />
-            <span class="text-xl">Contributors</span>
+            <span class="text-xl text-white mx-4">Contributors</span>
           </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+          <p class="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2022 Hacktober Contributors —
             <a
               href="https://hacktoberfest.com"
-              class="text-gray-600 ml-1"
+              class="text-white-600 ml-1"
               rel="noopener noreferrer"
               target="_blank"
             >
