@@ -99,6 +99,14 @@ const callouts = [ {
     imageSrc:"https://media-exp1.licdn.com/dms/image/D5603AQF5RJenGHExag/profile-displayphoto-shrink_400_400/0/1665388552482?e=1672272000&v=beta&t=BRHRhIHPYvqsOH2S0Z_yBDsDuhk-Rj_lMKCJnYTzH0c",
     imageAlt:"Yash",
     href:"https://github.com/MysteryHawk17"
+  },
+  {
+    name: "Ankit Maurya",
+    description: "Web Developer & Linux Enthusiast",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/73462619?v=4",
+    imageAlt: "Ankit",
+    href: "https://github.com/Ankit0225",
   }
 ];
 
