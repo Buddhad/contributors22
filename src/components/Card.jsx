@@ -92,8 +92,7 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/57311675?v=4",
     imageAlt: "Taha ",
     href: "https://github.com/mtahashahid",
-  },
-  
+  }
 ];
 
 
