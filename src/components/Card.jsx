@@ -107,7 +107,15 @@ const callouts = [ {
       "https://avatars.githubusercontent.com/u/73462619?v=4",
     imageAlt: "Ankit",
     href: "https://github.com/Ankit0225",
-  }
+  },
+  {
+    name: "Naman Singla",
+    description: "Competitve Programmer and Web 3 Enthusiast",
+    imageSrc:
+      "https://postimg.cc/rzTyrTck",
+    imageAlt: "https://imgs.search.brave.com/nFyd8lQynXNXwHxEQD8m1BxJWqipJkZHFbEM4YsN3wE/rs:fit:750:1022:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzIzL2Jh/LzdiLzIzYmE3YjVi/OGE4NjNhZGUxN2Uw/NzUwYTI4Y2M5ZDg3/LnBuZw",
+    href: "https://github.com/Naman-Singla777",
+  }               
 ];
 
 
